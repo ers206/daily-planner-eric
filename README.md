@@ -1,8 +1,7 @@
 # daily-planner-eric
 
 ## Purpose
-
-
+To create a daily planner that will use local storage to save events 
 
 ## Description
 
