@@ -4,7 +4,11 @@ var timeNow = document.getElementById('currentTime')
 
 var d = new Date();
 var dayofweek = d.getDay();
+var hourOfTimEoFdAYoFToday = d.getHours()
+console.log(hourOfTimEoFdAYoFToday)
 var date= d.toLocaleString();
+
+var hours = ["9AM", "10AM", "11AM"]
 
 switch(dayofweek){
     case 0:
@@ -31,8 +35,17 @@ switch(dayofweek){
      
 weekday.innerHTML = dayofweek;
 currentTime.innerHTML = date;
+
+
+localStorage.setItem("whatever II: Electric Boogaloo", JSON.stringify(obj))
+
+var IgotSomethingFromLocal = JSON.parse(localStorage.getItem("whatever"))
+console.log(IgotSomethingFromLocal)
+
 // save events 
 // var saveEvents = function() {
-//     localStorage.setItem("events", JSON.stringify(tasks));
+//     localStorage.setItem("events", JSON.stringify(events));
 //   };
+
+
   

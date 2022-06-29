@@ -23,6 +23,9 @@ THEN the saved events persist
 * html
 * css
 * Javascript
+* bootstrap
+* jquery
+*
 
 ## images
 
