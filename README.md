@@ -26,7 +26,7 @@ I made a daily planner that displays the time and date. It has tiime blocks labe
 ![]()
 
 ## Website
-
+ https://ers206.github.io/daily-planner-eric/
 
 ## contribution
 Made with ❤️ by Eric Schweitzer 
