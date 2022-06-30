@@ -8,7 +8,7 @@ var hoursRealTime = d.getHours()
 console.log(hoursRealTime)
 var date= d.toLocaleString();
 
-var hours = ["9AM", "10AM", "11AM", "12PM", "1PM", "2PM", "3PM", "4PM" ]
+// var hours = ["9AM", "10AM", "11AM", "12PM", "1PM", "2PM", "3PM", "4PM" ]
 
 switch(dayofweek){
     case 0:
@@ -44,10 +44,10 @@ weekday.innerHTML = dayofweek;
 currentTime.innerHTML = date;
 
 // local storage code 
-var obj = "hi"
+// var obj = "hi"
 
 
-localStorage.setItem("whatever II: Electric Boogaloo", JSON.stringify(obj))
+// localStorage.setItem("whatever II: Electric Boogaloo", JSON.stringify(obj))
 
 // var IgotSomethingFromLocal = JSON.parse(localStorage.getItem("whatever"))
 // console.log(IgotSomethingFromLocal)
